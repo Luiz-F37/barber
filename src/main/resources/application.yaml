@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: barber
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/barber
+    username: postgres
+    password: SUA_SENHA
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
